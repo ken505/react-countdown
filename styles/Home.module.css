@@ -15,6 +15,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .footer {
@@ -119,3 +121,17 @@
     flex-direction: column;
   }
 }
+
+.App {
+  display: flex;
+  justify-content: space-around;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.time {
+  font-size: 20px;
+}
+
+
